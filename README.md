@@ -1,3 +1,3 @@
 # EqualizedCoverage_CP
 
-This is a repo for paper title 'Conformalized Graph Neural Networks with Equalized Coverage'
+This is a repo for the paper titled 'Conformalized Graph Neural Networks with Equalized Coverage'
