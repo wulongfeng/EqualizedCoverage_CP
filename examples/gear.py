@@ -1,8 +1,5 @@
-#from pygdebias.debiasing import GEAR
-#from pygdebias.debiasing.GEAR_ts import GEAR_ts
-from pygdebias.debiasing.GEAR import GEAR
-from pygdebias.datasets import Bail
-from pygdebias.debiasing.utils import load_data
+from FairGNNs.models import GEAR
+from FairGNNs.utils.utils import load_data
 import torch.nn.functional as F
 from sklearn.metrics import accuracy_score
 
@@ -11,29 +8,6 @@ from collections import defaultdict
 import torch
 import random
 import pickle
-
-'''
-def setup_seed(seed):
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    torch.backends.cudnn.deterministic = True
-    np.random.seed(seed)
-    random.seed(seed)
-
-setup_seed(11)
-
-bail = Bail()
-adj, feats, idx_train, idx_val, idx_test, labels, sens = (
-    bail.adj(),
-    bail.features(),
-    bail.idx_train(),
-    bail.idx_val(),
-    bail.idx_test(),
-    bail.labels(),
-    bail.sens(),
-)
-sens_idx = torch.nonzero(sens).squeeze()
-'''
 
 def one_hot_encode(labels, num_classes):
     # Convert to one-hot encoding
@@ -64,8 +38,6 @@ calib_test_mask[idx_test] = True
 
 #'''
 n_sample = min(1000, int(idx_test.shape[0]/2))
-
-
 
 
 for epo in [500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000]:

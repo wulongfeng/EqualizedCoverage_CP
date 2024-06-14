@@ -43,7 +43,7 @@ warnings.filterwarnings('ignore')
 from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 from torch_geometric.data import Data
 import torch_geometric.utils as gm_utils
-from pygdebias.conformal_prediciton.conformal import pred_conformal_classification
+from FairGNNs.conformal_prediction.conformal import pred_conformal_classification
 
 
 

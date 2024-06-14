@@ -26,7 +26,7 @@ import argparse
 import numpy as np
 import scipy.sparse as sp
 import pickle
-from pygdebias.conformal_prediciton.conformal import pred_conformal_classification
+from FairGNNs.conformal_prediction.conformal import pred_conformal_classification
 
 
 class Classifier(nn.Module):

@@ -30,7 +30,7 @@ from scipy.spatial import distance_matrix
 from torch_geometric.data import Data
 import torch
 from torch_geometric.utils import from_scipy_sparse_matrix
-from pygdebias.conformal_prediciton.conformal import pred_conformal_classification
+from FairGNNs.conformal_prediction.conformal import pred_conformal_classification
 
 def train(model, data, optimizer, args):
     model.train()

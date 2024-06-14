@@ -1,34 +1,10 @@
-from pygdebias.debiasing import CrossWalk
-from pygdebias.datasets import Bail
-from pygdebias.debiasing.utils import load_data
+from FairGNNs.models import CrossWalk
+from FairGNNs.utils.utils import load_data
 
 import numpy as np
 from collections import defaultdict
 import torch
 import random
-
-'''
-def setup_seed(seed):
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
-    torch.backends.cudnn.deterministic = True
-    np.random.seed(seed)
-    random.seed(seed)
-
-
-setup_seed(11)
-
-bail = Bail()
-adj, feats, idx_train, idx_val, idx_test, labels, sens = (
-    bail.adj(),
-    bail.features(),
-    bail.idx_train(),
-    bail.idx_val(),
-    bail.idx_test(),
-    bail.labels(),
-    bail.sens(),
-)
-'''
 
 params = {
     "dataset": 'Cora',

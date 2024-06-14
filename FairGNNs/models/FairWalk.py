@@ -25,7 +25,7 @@ from torch_geometric.utils import sort_edge_index
 from torch_geometric.utils.num_nodes import maybe_num_nodes
 
 from torch_geometric.datasets import Planetoid
-from pygdebias.conformal_prediciton.conformal import pred_conformal_classification
+from FairGNNs.conformal_prediction.conformal import pred_conformal_classification
 
 # Training settings
 parser = argparse.ArgumentParser()

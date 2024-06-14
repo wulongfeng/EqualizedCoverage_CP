@@ -39,7 +39,7 @@ SENSITIVE_ATTR_DICT = {
 }
 from sklearn.metrics import roc_auc_score
 import dgl.data
-from pygdebias.conformal_prediciton.conformal import prob_conformal_classification
+from FairGNNs.conformal_prediction.conformal import pred_conformal_classification
 
 
 import dgl

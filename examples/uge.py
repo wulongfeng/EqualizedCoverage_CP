@@ -1,6 +1,5 @@
-from pygdebias.debiasing import UGE
-from pygdebias.datasets import Bail
-from pygdebias.debiasing.utils import load_data
+from FairGNNs.models import UGE
+from FairGNNs.utils.utils import load_data
 
 import numpy as np
 from collections import defaultdict
