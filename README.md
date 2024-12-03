@@ -1,6 +1,7 @@
 # EqualizedCoverage_CP
 
-This is a repo for the paper titled 'Conformalized Graph Neural Networks with Equalized Coverage'
+This is a repo for the paper titled 'Bridging Fairness and Uncertainty: Theoretical Insights and
+Practical Strategies for Equalized Coverage in GNNs'
 
 ## Introduction
 
