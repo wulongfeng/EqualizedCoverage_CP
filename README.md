@@ -20,3 +20,10 @@ To install requirements, run:
 For example, if we want to run Fairwalk, we can execute the following command:
 
     python examples/fairwalk.py
+
+## Acknowledgments
+
+Some of the code was forked from the following repositories:
+
+- [PyGDebias](https://github.com/yushundong/PyGDebias)
+- [BeMap](https://github.com/xiaolin-cs/BeMap)
