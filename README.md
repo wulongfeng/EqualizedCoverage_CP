@@ -27,3 +27,10 @@ Some of the code was forked from the following repositories:
 
 - [PyGDebias](https://github.com/yushundong/PyGDebias)
 - [BeMap](https://github.com/xiaolin-cs/BeMap)
+
+
+## Citation
+
+If you find it useful, please cite our paper. Thank you!
+
+    
