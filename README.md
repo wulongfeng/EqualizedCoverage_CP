@@ -33,4 +33,11 @@ Some of the code was forked from the following repositories:
 
 If you find it useful, please cite our paper. Thank you!
 
+    @inproceedings{wu2025bridging,
+      title={Bridging Fairness and Uncertainty: Theoretical Insights and Practical Strategies for Equalized Coverage in GNNs},
+      author={Wu, Longfeng and Zhou, Yao and Kang, Jian and Zhou, Dawei},
+      booktitle={Proceedings of the ACM on Web Conference 2025},
+      pages={4625--4634},
+      year={2025}
+    }
     
